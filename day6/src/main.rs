@@ -27,3 +27,10 @@ fn main() {
     println!("Fish after 80 days: {}", step(counts, 80).iter().sum::<i64>());
     println!("Fish after 256 days: {}", step(counts, 256).iter().sum::<i64>());
 }
+
+#[test]
+fn test() {
+    let counts = [0, 1, 1, 2, 1, 0, 0, 0, 0];
+    assert_eq!(step(counts, 80).iter().sum::<i64>(), 5934);
+    assert_eq!(step(counts, 256).iter().sum::<i64>(), 26984457539);
+}

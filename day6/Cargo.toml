@@ -7,3 +7,10 @@ edition = "2018"
 
 [dependencies]
 libadvent = {path = "../../libadvent"}
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "bench"
+harness = false
