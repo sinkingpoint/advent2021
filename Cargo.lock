@@ -179,6 +179,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "day10"
+version = "0.1.0"
+dependencies = [
+ "libadvent",
+]
+
+[[package]]
+name = "day11"
+version = "0.1.0"
+dependencies = [
+ "libadvent",
+]
+
+[[package]]
+name = "day12"
+version = "0.1.0"
+dependencies = [
+ "libadvent",
+]
+
+[[package]]
 name = "day2"
 version = "0.1.0"
 dependencies = [
@@ -226,6 +247,13 @@ name = "day8"
 version = "0.1.0"
 dependencies = [
  "itertools",
+ "libadvent",
+]
+
+[[package]]
+name = "day9"
+version = "0.1.0"
+dependencies = [
  "libadvent",
 ]
 
